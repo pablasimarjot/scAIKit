@@ -5,7 +5,6 @@ AI-assisted toolkit for single-cell RNA-seq in R.
 ## Installation
 
 ```r
-# Install development version from GitHub after you push:
 # remotes::install_github("pablasimarjot/scAIkit")
 ```
 
