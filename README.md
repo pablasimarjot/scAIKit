@@ -5,7 +5,22 @@ AI-assisted toolkit for single-cell RNA-seq in R.
 ## Installation
 
 ```r
-# remotes::install_github("pablasimarjot/scAIkit")
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install(c(
+    "scater",
+    "scran",
+    "scDblFinder",
+    "SingleCellExperiment",
+    "batchelor",
+    "AUCell"
+))
+
+install.packages("remotes")
+remotes::install_github("sqjin/CellChat")
+
+remotes::install_github("pablasimarjot/scAIkit")
 ```
 
 ## Features
