@@ -18,7 +18,9 @@ BiocManager::install(c(
 ))
 
 install.packages("remotes")
-remotes::install_github("sqjin/CellChat")
+install.packages("devtools")
+
+devtools::install_github("jinworks/CellChat")
 
 remotes::install_github("pablasimarjot/scAIkit")
 ```
