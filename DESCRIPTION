@@ -1,0 +1,41 @@
+Package: scAIkit
+Type: Package
+Title: AI-assisted Toolkit for Single-cell RNA-seq Analysis
+Version: 0.1.0
+Author: Simarjot Pabla and contributors
+Maintainer: Simarjot Pabla <your_email@example.com>
+Description: scAIkit provides AI-assisted utilities to streamline single-cell RNA-seq analysis in R,
+    including QC, normalization, batch integration, clustering, annotation, signature scoring, 
+    cell-cell interaction analysis, and automated report generation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1)
+Imports:
+    Seurat,
+    SeuratObject,
+    Matrix,
+    dplyr,
+    purrr,
+    tibble,
+    ggplot2,
+    rlang,
+    scater,
+    scran,
+    scDblFinder,
+    harmony,
+    uwot,
+    tidymodels,
+    xgboost,
+    SoupX,
+    SingleCellExperiment,
+    batchelor,
+    rmarkdown,
+    knitr,
+    AUCell,
+    CellChat,
+    glue
+Suggests:
+    testthat,
+    BiocManager
+RoxygenNote: 7.2.3

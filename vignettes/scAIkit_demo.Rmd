@@ -1,0 +1,22 @@
+---
+title: "scAIkit Demo"
+output: html_vignette
+vignette: >
+  %\VignetteIndexEntry{scAIkit Demo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Quick demo
+
+```{r}
+library(scAIkit)
+# Example usage once package is installed
+# obj <- scai_load_10x("path/to/data")
+# obj <- scai_pipeline(obj, batch_var = "sample")
+# scai_report(obj, file = "scAIkit_report.html")
+```
